@@ -4,20 +4,8 @@ function addChar(input, character) {
     else
     input.value += character
     }
-    function cos(form) {
-    form.display.value = Math.cos(form.display.value);
-    }
-    function sin(form) {
-    form.display.value = Math.sin(form.display.value);
-    }
-    function tan(form) {
-    form.display.value = Math.tan(form.display.value);
-    }
     function sqrt(form) {
     form.display.value = Math.sqrt(form.display.value);
-    }
-    function ln(form) {
-    form.display.value = Math.log(form.display.value);
     }
     function exp(form) {
     form.display.value = Math.exp(form.display.value);

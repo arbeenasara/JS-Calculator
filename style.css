@@ -8,7 +8,7 @@ text-align: center;
 form
 {
 	padding-top: 50px;
-	padding-left: 600px;
+	padding-left: 450px;
 }
 
 body
@@ -18,8 +18,8 @@ body
 
 .calculator 
 {
-width: 350px;
-height: 320px;
+width: 250px;
+height: 430px;
 background-color: #c0c0c0;
 box-shadow: 0px 0px 0px 10px #666;
 border: 5px solid black;
@@ -43,38 +43,67 @@ color: #7fff00;
 {
 color: white;
 background-color: #6f6f6f;
-font-size: 14px;
+font-size: 16px;
 margin: auto;
 width: 50px;
-height: 25px;
+height: 35px;
+cursor: pointer;
 }
 
 .btnNum 
 {
 color: white;
 background-color: black;
-font-size: 14px;
+font-size: 20px;
 margin: auto;
-width: 50px;
-height: 25px;
+width: 60px;
+height: 40px;
+border-radius: 10px;
+cursor: pointer;
 }
 
 .btnMath 
 {
 color: white;
 background-color: #ff4561;
-font-size: 14px;
+font-size: 17px;
 margin: auto;
 width: 50px;
-height: 25px;
+height: 35px;
+cursor: pointer;
 }
 
 .btnOpps 
 {
 color: white;
 background-color: #ff9933;
-font-size: 14px;
+font-size: 17px;
 margin: auto;
 width: 50px;
-height: 25px;
+height: 35px;
+cursor: pointer;
+}
+
+.btnNum:hover
+{
+    color: white;
+    background-color: rgb(75, 64, 64);
+}
+
+.btnMath:hover
+{
+    color: white;
+    background-color: #be253c;
+}
+
+.btnOpps:hover
+{
+    color: white;
+    background-color: #e9994a;
+}
+
+.btnTop:hover
+{
+    color: rgb(184, 42, 65);
+    background-color: #9c9797;
 }
